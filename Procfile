@@ -1,1 +1,1 @@
-web: gunicorn Code\Deployment\movie_api.py
+web: gunicorn Code.Deployment.movie_api
