@@ -9,7 +9,7 @@ __license__ = "GNU GPL3"
 # imports
 import json
 from flask import Flask, request, render_template
-from Code.Deployment.movie_model import RatingModel
+from movie_model import RatingModel
 
 app = Flask(__name__)
 
